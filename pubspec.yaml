@@ -1,0 +1,26 @@
+name: food_ordering
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  sqflite: ^2.4.1
+  path_provider: ^2.1.5
+  cupertino_icons: ^1.0.8
+
+
+dev_dependencies:
+  drift_dev: ^2.0.0
+  build_runner: ^2.0.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
